@@ -14,22 +14,22 @@ Ideal para validar formulários, e utilizar em aplicações web como e-commerce,
 
 3° Inicializar o documento Jquery na tag <script></script>
 
-   $(function(){
-        $("#form-cadastro").validate({
-            rules : {
-                senha : {
-                    required : true,
-                    minlength : 6
-                }
-            },
-            messages : {
-                senha : {
-                    required : "Informe uma senha.",
-                    minlength : "A senha deve possuir pelo menos 6 caracteres."
-                }
-            }
-        });
-    });
+   #$(function(){
+        #$("#form-cadastro").validate({
+            #rules : {
+             #   senha : {
+             #       required : true,
+             #       minlength : 6
+            #    }
+            #},
+            #messages : {
+           #     senha : {
+           #         required : "Informe uma senha.",
+           #         minlength : "A senha deve possuir pelo menos 6 caracteres."
+            #    }
+          #  }
+       # });
+  #  });
     
 4° Debugar e efetuar testes com a biblioteca.    
     
